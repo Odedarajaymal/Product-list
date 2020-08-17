@@ -1,0 +1,1 @@
+download the clone and go to command line and yarn install then after run yarn start or npm start

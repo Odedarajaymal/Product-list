@@ -7,7 +7,7 @@ class Oneproduct extends Component {
     }  
 componentDidMount(){
     const id =this.props.match.params.id
-    console.log(id)
+ 
 
     fetch(`https://aveosoft-react-assignment.herokuapp.com/products/${id}`)
     .then(res=>{
